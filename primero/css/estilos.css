@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'Charcoal';
+    font-style: normal;
+    src: 
+        url('/fonts/Charcoal.otf') format('OpenType');
+
+}
+
+@font-face {
+    font-family: 'Gadget';
+    font-style: normal;
+    src: 
+    url('/fonts/gadget.ttf') format('TrueType');
+}
+
+html {
+    background-color: #273238;
+}
+
+h1{
+    font-family: Impact, 'Charcoal', sans-serif;
+    color: #63808F ;
+    background-color: #FFFFFF;
+    text-align: center;
+    font-size: 65px;
+}
+
+p {
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    color: #B0BAB9;
+    font-size: 14px;
+    text-align: justify;
+}
+
+h2{
+    font-family: arial, 'Gadget', sans-serif;
+    font-variant: small-caps;    
+    font-style: bold;
+    font-weight: 700;
+}
+
+
+.aspclass {
+    color: #DCC7BF;
+}
+
+.aspimg {
+    border: #DCC7BF 5px solid;
+    margin-left: 25px;
+
+}
+.celclass {
+    color: #A3C4CE;
+}
+
+.celimg {
+    border:#A3C4CE 5px solid;
+    margin-left: 25px;
+}
+
+.consclass {
+    color:#C1C2C1;
+}
+
+.consimg {
+    border: #C1C2C1 5px solid;
+    margin-left: 25px;
+}
+
+.homeclass {
+    color:#8D94A1;
+}
+
+.homeimg {
+    border: #8D94A1 5px solid;
+    margin-left: 25px;
+}
+
+.teleclass {
+    color: #B2B2AA;
+}
+
+.teleimg {
+    border: #B2B2AA 5px solid;
+    margin-left: 25px;
+}
